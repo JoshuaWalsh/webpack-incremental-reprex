@@ -1,0 +1,19 @@
+{
+    "include": [
+        "src"
+    ],
+    "exclude": [
+        "node_modules"
+    ],
+    "compilerOptions": {
+        "outDir": "./build/",
+        "target": "ESNEXT",
+        "module": "commonjs",
+        "moduleResolution": "node",
+        "allowJs": true,
+        "sourceMap": true,
+        "strict": true,
+        "esModuleInterop": true,
+        "incremental": true,
+    }
+}
